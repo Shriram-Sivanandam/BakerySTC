@@ -1,10 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
 
+.inline {
+  display: inline;
+}
+
+/* .under {
+  text-decoration: underline;
+  text-decoration-color: red;
+} */
+
+.navbar.scrolled {
+  background-color: #fff3f1 !important;
+  transition: background-color 200ms linear;
+}
+
 .jumbotron {
   background-color: #fff3f1;
-  padding-bottom: 0 !important;
+}
+
+#heroSection {
+  padding-top: 20%;
 }
 
 .tricks__section {
@@ -34,8 +55,48 @@ body {
   transform: translate(20%, -50%);
 }
 
+.eachCard {
+  margin: 10%;
+  margin-bottom: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+#ellipse__top {
+  transform: rotate(90deg);
+  top: -20%;
+  left: 65%;
+  position: absolute;
+  z-index: 0;
+}
+
+#ellipse__left {
+  float: left;
+  transform: translateY(10%);
+  z-index: 0;
+}
+
 #ellipse__right {
-  transform: rotate(180deg) translateY(75%);
+  transform: rotate(180deg) translateY(60%);
   float: right;
   right: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .main-text {
+    transform: translateY(-30%);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ressvg {
+    display: none;
+  }
+  .body::-webkit-scrollbar {
+    display: none;
+  }
 }
