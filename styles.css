@@ -7,6 +7,35 @@ body {
   padding-bottom: 0 !important;
 }
 
+.tricks__section {
+  background-color: #fff3f1;
+}
+
 .small {
   font-size: 1.5rem;
+}
+
+.footer__bg {
+  background-color: #4b4b4b;
+}
+
+.eachCard {
+  padding: 10px;
+  z-index: 100;
+  background-color: #fff3f1;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+
+.card__image {
+  position: absolute;
+  right: -0%;
+  transform: translate(20%, -50%);
+}
+
+#ellipse__right {
+  transform: rotate(180deg) translateY(75%);
+  float: right;
+  right: 0;
 }
