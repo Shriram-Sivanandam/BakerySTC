@@ -22,7 +22,9 @@
   <body>
     <nav class="navbar navbar-expand navbar-light fixed-top">
       <div class="container-fluid d-flex justify-content-between">
-        <a class="navbar-brand left font-weight-bold" href="#heroSection">HomeBakes</a>
+        <a class="navbar-brand left font-weight-bold" href="#heroSection"
+          >HomeBakes</a
+        >
         <div>
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -76,7 +78,18 @@
     <div class="pb-5" id="recipes">
       <div class="row pb-3 pt-3">
         <div class="container">
-          <h2 class="font-weight-bold inline">Fe<h2 class="font-weight-bold inline under">atured Recipes    </h2></h2>
+          <div class="underline">
+            <h2 class="font-weight-bold">Featured Recipes</h2>
+            <svg height="5" width="280">
+              <line
+                x1="40"
+                y1="0"
+                x2="280"
+                y2="0"
+                style="stroke: rgb(255, 0, 0); stroke-width: 2"
+              />
+            </svg>
+          </div>
           <div class="row">
             <div class="col-md-6 mb-md-0 mb-5">
               <div class="card eachCard mr-md-1">
@@ -151,11 +164,22 @@
       />
     </div>
 
-    <div class="tricks__section mt-5" id="tricks">
+    <!-- <div class="tricks__section mt-5" id="tricks">
       <div class="container">
         <div class="row">
-          <h2>Sneaky Tricks !</h2>
-      </div>
+          <div class="underline">
+            <h2 class="font-weight-bold">Sneaky Tricks !</h2>
+            <svg height="5" width="240">
+              <line
+                x1="40"
+                y1="0"
+                x2="280"
+                y2="0"
+                style="stroke: rgb(255, 0, 0); stroke-width: 2"
+              />
+            </svg>
+          </div>
+        </div>
         <div class="d-flex">
           <div class="tricks">
             <ol class="font-weight-bold">
@@ -186,6 +210,53 @@
               class="img-fluid"
               src="./images/sneaky_tricks_illustration.svg"
               alt="Tricks Image"
+            />
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="jumbotron mb-0" id="tricks">
+      <div class="container">
+        <div class="row">
+          <div class="underline">
+            <h2 class="font-weight-bold">Sneaky Tricks !</h2>
+            <svg height="5" width="240">
+              <line
+                x1="40"
+                y1="0"
+                x2="280"
+                y2="0"
+                style="stroke: rgb(255, 0, 0); stroke-width: 2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="row pb-3 pt-3">
+          <div class="col-md-8">
+            <ol>
+              <li class="p-3">
+                <h5 class="font-weight-bold">Add this with this to get this.</h5>
+                Take a bowl and mix flour, cocoa powder, milk powder and lorem
+                ipsum this helps in this process to do this
+              </li>
+              <li class="p-3">
+                <h5 class="font-weight-bold">Don't add excess food coloring</h5>
+                Take a bowl and mix flour, cocoa powder, milk powder and lorem
+                ipsum helps this process to do this. Add some more text here and
+                let it flow
+              </li>
+              <li class="p-3">
+                <h5 class="font-weight-bold">Always check your timers</h5>
+                Justt a simple tip to always smile and cook
+              </li>
+            </ol>
+          </div>
+          <div class="col">
+            <img
+              class="mx-auto"
+              src="./images/sneaky_tricks_illustration.svg"
+              alt="tricks"
             />
           </div>
         </div>

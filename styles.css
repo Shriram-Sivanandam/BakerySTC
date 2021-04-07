@@ -6,15 +6,6 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-.inline {
-  display: inline;
-}
-
-/* .under {
-  text-decoration: underline;
-  text-decoration-color: red;
-} */
-
 .navbar.scrolled {
   background-color: #fff3f1 !important;
   transition: background-color 200ms linear;
@@ -22,6 +13,10 @@ body {
 
 .jumbotron {
   background-color: #fff3f1;
+}
+
+.short {
+  height: 5px;
 }
 
 #heroSection {
