@@ -1,0 +1,12 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.jumbotron {
+  background-color: #fff3f1;
+  padding-bottom: 0 !important;
+}
+
+.small {
+  font-size: 1.5rem;
+}
