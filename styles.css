@@ -11,6 +11,10 @@ body {
   transition: background-color 200ms linear;
 }
 
+.cont {
+  max-width: 98%;
+}
+
 .jumbotron {
   background-color: #fff3f1;
 }
@@ -61,7 +65,7 @@ body {
 
 #ellipse__top {
   transform: rotate(90deg);
-  top: -20%;
+  top: -22%;
   left: 65%;
   position: absolute;
   z-index: 0;
